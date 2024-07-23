@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(141, 207, 191);
+}
+
+
+.text-decoration {
+  text-transform: uppercase;
+  position: relative;
+  font-size: 5dvh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  top: 50dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.text-animation::after {
+  content: '';
+  top: 47dvh;
+  left: 57dvw;
+  font-size: 2svi;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  position: absolute;
+  border: 0.2svi solid black;
+  width: 10dvw;
+  height: 10dvh;
+  border-radius: 0.5svi;
+  background-color: rgba(83, 20, 165, 0.247);
+  animation: font-animation 6s infinite;
+}
+
+@keyframes font-animation {
+  0% {
+    content: "پیاری";
+    background-color: rgb(185, 52, 52);
+  }
+
+  20% {
+    content: "여보";
+    background-color: rgba(0, 255, 42, 0.486);
+
+  }
+
+  40% {
+    content: "ダーリン";
+    background-color: rgba(0, 17, 255, 0.486);
+
+  }
+
+  60% {
+    content: "милый";
+    background-color: rgba(0, 17, 255, 0.486);
+  }
+
+  80% {
+    content: "محبوب";
+    background-color: rgba(0, 255, 42, 0.486);
+
+  }
+
+  100% {
+    content: "Querida";
+    background-color: rgba(255, 0, 0, 0.486);
+
+  }
+
+}

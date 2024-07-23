@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./loading.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="loading-page">
+    <div class="loading-counter " id="counter">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="loading-text">
+      WELCOME
+    </div>
+  </div>
+</body>
+<script>
+  let countElement = document.getElementById("counter");
+  let upto = 0;
+
+  function updateCounter() {
+    countElement.innerHTML = ++upto + "%";
+
+    if (upto === 100) {
+      clearInterval(counts);
+    }
+  }
+
+  let counts = setInterval(updateCounter, 30);
+</script>
+
+</html>

@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsla(0, 0%, 11%, 0.822);
+}
+
+.btn {
+  background-color: hsla(0, 0%, 100%, 0);
+  color: azure;
+  font-size: 10px;
+  padding: 10px 20px;
+  letter-spacing: 5px;
+}
+
+.btn-border {
+  border-image: linear-gradient(to right, #f0a502, #bd4702, #99035f) 15;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.btn:hover {
+  border-style: solid;
+  border-image: linear-gradient(to left, #f0a502, #bd4702, #99035f) 15;
+  border-width: 1px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

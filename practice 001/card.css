@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 11%);
+
+}
+
+.container {
+  width: 30dvw;
+  height: 70dvh;
+  justify-items: center;
+  margin-left: 35%;
+  margin-top: 5%;
+  background-color: rgb(53, 53, 53);
+  border-radius: 10px;
+}
+
+.card-Image {
+  max-width: 20dvw;
+  max-height: 30dvh;
+  border-radius: 10px;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.avatar-Image {
+  max-width: 5dvw;
+  max-height: 10dvh;
+  border-radius: 50%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.avatar-Heading {
+  color: white;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 4svb;
+  max-width:20dvw;
+  max-height: 5dvh;
+}
+
+.avatar-paragraph {
+  color: rgb(160, 160, 160);
+  font-size: 2svb;
+}
+
+.card-Icon {
+  color: rgb(196, 196, 196);
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.input-field {
+  width: 20dvw;
+  height: 1dvh;
+  margin-left: 10%;
+  margin-top: 5%;
+  background: rgba(168, 168, 168, 0.555);
+  border-radius: 6px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+  font-size: 2svb;
+}
